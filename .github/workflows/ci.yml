@@ -33,9 +33,6 @@ jobs:
       - name: Show commit message
         run: echo "$commitmsg"
 
-      - name: Cd
-        run: cd ./client
-
       - name: Install Dependencies
         run: npx yarn
 
