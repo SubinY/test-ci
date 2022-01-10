@@ -37,7 +37,7 @@ jobs:
         run: npx yarn
 
       - name: Build weapp
-        run: npm run build:dev
+        run: npm run build:weapp
 
       # see Project/Settings/Secrets
       - name: Generate private key for upload
